@@ -41,8 +41,8 @@ function draw() {
   path.velocityY = 4;
   
   // reset path from centre if escapes canvas
-  if(path.y > 400 ){
-    path.y = path.height/2;
+  if (path.y > 400){
+    path.y = height/2;
   }
    
   // move boy horizontally with mouse pointer
